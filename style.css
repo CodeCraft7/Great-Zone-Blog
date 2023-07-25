@@ -1,0 +1,169 @@
+/* Css Reset  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* Navigation Bar  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px rgb(183, 174, 174);
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav-logo {
+    margin: 10px;
+}
+
+.nav-icon {
+    display: flex;
+}
+
+.nav-icon img {
+    margin: 13px;
+    width: 30px;
+}
+
+/* Home Section  */
+.home {
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-text h1 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+.home-text h4 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.home-img img {
+    border-radius: 20px;
+}
+
+/* Post section  */
+.post-contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.post-contant-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-contant-heading p {
+    margin: 20px 0px;
+}
+
+.post-img img {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    border: none;
+    margin: 2px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    border-bottom: 1px solid black;
+}
+
+/* Boxes Section  */
+.boxes {
+    display: flex;
+    margin: 20px;
+    font-size: 13px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box-content h1 {
+    margin-bottom: 5px;
+}
+
+.box-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.box-img img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 5px;
+}
+
+/* Lorem-ipsum  Section */
+.lorem-ipsum {
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem-ipsum p {
+    margin: 10px 0px;
+}
+
+.lorem-ipsum img {
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.lorem-heading {
+    margin: 20px;
+}
+
+/* Footer  */
+footer {
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright p {
+    padding: 10px;
+}
+
+.footer-img {
+    display: flex;
+}
+
+.footer-img img {
+    margin: 10px;
+    width: 30px;
+}
+
+.footer-logo {
+    margin: 10px;
+}
+

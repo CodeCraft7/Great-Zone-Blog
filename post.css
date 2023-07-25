@@ -1,0 +1,95 @@
+/* Css Reset  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* Navigation Bar  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px rgb(183, 174, 174);
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav-logo {
+    margin: 10px;
+}
+
+.nav-icon {
+    display: flex;
+}
+
+.nav-icon img {
+    margin: 13px;
+    width: 30px;
+}
+/* Post Page  */
+/*Section banner img */
+.banner-img {
+    border-bottom: 1px solid #000;
+}
+
+.banner-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
+}
+
+.banner-img p,
+h1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.banner-name{
+    padding: 5px 30px;
+
+}
+
+/*Section banner Paragraph */
+.banner-para {
+    padding: 0 30px;
+    font-size: 13px;
+}
+
+.section,
+.para {
+    margin: 20px 0px;
+}
+
+.section h2 {
+    margin: 20px 0px;
+}
+
+/* Footer  */
+footer {
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright p {
+    padding: 10px;
+}
+
+.footer-img {
+    display: flex;
+}
+
+.footer-img img {
+    margin: 10px;
+    width: 30px;
+}
+
+.footer-logo {
+    margin: 10px;
+}
